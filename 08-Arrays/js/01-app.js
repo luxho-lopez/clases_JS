@@ -1,3 +1,19 @@
+
+const numeracion = [5, 10, 15, 20, 25];
+
+const nombres = new Array('Juan', 'Pedro', 'Pablo');
+
+const multiple = ['Luis', 24, true, 'Marzo', { genero: 'masculino', nacionalidad: 'mexicana' }, [9, 8, 7]];
+
+
+
+console.log(numeracion);
+console.log(nombres);
+console.log(multiple);
+
+
+
+/*
 // Al igual que los objetos los arreglos forman una parte muy importante en cualquier lenguaje de programación
 // Un ejemplo de un arreglo es un carrito de compras, sirve para agrupar elementos del mismo tipo.
 // También la forma en que facebook muestra un listado de amigos o personas que le dieron Me Gusta a tu última foto, seguramente es un arreglo.
@@ -19,3 +35,4 @@ console.log(deTodo);
 // incluso un array puede tener un array dentro
 
 // Personalmente encuentro más fácil de utilizar la sintaxis de llaves asi que esa sera la que estaremos utilizando, pero recuerda, un arreglo es una forma de agrupar grandes cantidades de información en una sola variable.
+*/

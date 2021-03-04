@@ -1,3 +1,30 @@
+const numeracion = [10, 20, 30, 40, 50, [1, 2, 3, 4, 5]];
+
+
+
+
+console.log(numeracion);
+console.table(numeracion);
+
+
+console.log(numeracion[2]);
+console.log(numeracion[5]);
+console.log(numeracion[5][2]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 // Veamos como acceder a los elementos de un arreglo...
 
 const numeros = [10,20,30,40,50];
@@ -13,3 +40,4 @@ console.log(numeros[0])
 console.log(numeros[1])
 console.log(numeros[3])
 console.log(numeros[20])
+*/
