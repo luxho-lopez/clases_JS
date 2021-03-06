@@ -1,3 +1,71 @@
+const carritoCompra = [];
+
+// Definir un producto
+const producto1 = {
+    nombre: "Monitor de 40\"",
+    precio: 500
+};
+
+const producto2 = {
+    nombre: "Telcel Motorola",
+    precio: 900
+};
+
+const producto3 = {
+    nombre: "Cajon CPU",
+    precio: 350
+};
+
+// push - agrega el valor dentro del array en la posicion vacia que encuentre al final
+carritoCompra.push(producto1);
+carritoCompra.push(producto2);
+carritoCompra.push(producto3);
+
+const producto4 = {
+    nombre: "Peluche",
+    precio: 120
+};
+
+// unshif - forza al valor a colocarse en la pocision numero 0
+carritoCompra.unshift(producto4);
+console.table(carritoCompra);
+
+// Eliminar elemento intermedios
+carritoCompra.splice(1, 1);
+console.table(carritoCompra);
+
+// Eliminar ultimo elemento del arreglo
+carritoCompra.pop();
+console.table(carritoCompra);
+
+// Eliminar del principio del arreglo
+carritoCompra.shift();
+console.table(carritoCompra);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 const carrito = [];
 
 const producto = {
@@ -34,3 +102,4 @@ carrito.splice(1,0); // el segundo parametro es que tantos elementos vamos a bor
 
 
 console.log(carrito);
+*/

@@ -10,7 +10,7 @@ const meses = [ 'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 
 console.log(meses.length);
 
 
-// Recorre el arreglo dependiendo de la cantidad de valores que estya tenga 
+// Recorre el arreglo dependiendo de la cantidad de valores que esta tenga 
 for( let i = 0; i < meses.length; i++) {
     // Muestra la cantidad de valores que hay
     // console.log(i);
