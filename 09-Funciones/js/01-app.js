@@ -5,7 +5,6 @@
 // Existen 2 formas de crear funciones en JavaScript
 
 // Declaración de Función, la expresión de la función utiliza la palabra reservada function, seguida de un nombre y un parentesis, en este parentesis se colocan los argumentos, finalmente el cuerpo de la función se define por unas llaves...
-
 function sumar() {
     console.log(2 + 2);
 }
@@ -23,4 +22,3 @@ const sumar2 = function() {
 sumar2(); // se manda llamar de la misma forma
 
 // Existe una 3ra forma de crear funciones, que más bien son métodos, la veremos un poco más adelante...
-

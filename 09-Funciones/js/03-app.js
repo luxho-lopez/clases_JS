@@ -6,10 +6,11 @@
 
 // En JavaScript no hay librería estandard, pero si hay funciones que son parte digamos del Core...
 
-alert('Hubo un error...');
+// alert('Hubo un error...');
 
-prompt('Cual es tu edad?');
+let nombre = prompt('¿Como te llamas?');
 
+document.getElementById("nombre").innerHTML = nombre;
 
 parseInt('1');
 

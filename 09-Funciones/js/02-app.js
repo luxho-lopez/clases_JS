@@ -1,3 +1,36 @@
+
+// Este codigo se ejecuda aun llamando primero la variable 
+sumar();
+
+function sumar() {
+    console.log(2 + 2);
+}
+
+
+// Este no
+sumar2();
+
+const sumar2 = function() {
+    console.log(3 + 3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 // Hoisting 
 
 // Ademas de las muy notables diferencias en sintaxis, quiero mostrarte las diferencias entre ambas... si llamamos la función antes de declararla, el function expression va a funcionar bien, mientras que el otro nos va a marcar un error..
@@ -32,3 +65,4 @@ sumar2 = function() {
 }
 
 // Y esta es pregunta para obtener un trabajo como JS Developer...
+*/
