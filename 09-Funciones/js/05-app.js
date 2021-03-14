@@ -1,3 +1,27 @@
+function sumar( a, b) {
+    console.log( a + b );
+};
+
+sumar( 7, 7 );
+
+
+
+function persona(nombre, apellido) {
+    console.log(`Hola: ${nombre} ${apellido}`)
+};
+
+persona("Alfredo", "López");
+
+
+
+
+
+
+
+
+
+
+/*
 // Funciones que toman parametros y argumentos...
 
 // Nuestra primera función no tiene nada de emocionante, es demasiado simple, para que tus funciones puedan ser más versatiles e inteligentes deberán utilizar parametros y argumentos
@@ -9,3 +33,4 @@ function saludar(nombre, apellido) { // nombre y apellido son parametros, son va
 saludar('Juan', 'De la torre'); // Pablo y De la torre son argumentos, son los valores reales...
 
 saludar();
+*/

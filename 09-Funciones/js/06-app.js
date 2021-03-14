@@ -1,4 +1,30 @@
 
+function persona(nombre = 'Cliente', apellido = '') {
+    console.log(`Hola: ${nombre} ${apellido}`)
+};
+
+persona("Alfredo", 'Lopez');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 // Parametros por default...
 
 // Algunas veces mandaras llamar una función que no tendrá los argumentos que se requieren, por ejemplo cuando llenas tu perfil de facebook tal vez no llenas todos los campos,   en esos casos son muy convenientes por parametros por default, veamos nuestra función si solo le pasamos el nombre pero no el apellido
@@ -14,3 +40,4 @@ saludar('Juan', 'De la torre'); // Pablo y De la torre son argumentos, son los v
 saludar('Juan');
 
 saludar();
+*/
