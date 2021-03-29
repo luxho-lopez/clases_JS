@@ -1,3 +1,45 @@
+const reproductor = {
+    reproducir: function(nombre) {
+        console.log(`Reproduciendo Cancion: ${nombre}`);
+    },
+    pausar: function() {
+        console.log('Pausa');
+    },
+    crearPlaylist: function(nombrePlaylist) {
+        console.log(`Creando PlayList: ${nombrePlaylist}`);
+    },
+    reproducirPlaylist: function(nombrePlaylist) {
+        console.log(`Reproduciendo PlayList: ${nombrePlaylist}`);
+    }
+};
+
+reproductor.reproducir('Lo que contruimos');
+reproductor.pausar();
+
+reproductor.borrar = function(nombre) {
+    console.log(`Cancion eliminada... ${nombre}`);
+};
+
+reproductor.borrar('Lo que contruimos');
+reproductor.crearPlaylist('Electronica Moderna');
+reproductor.reproducirPlaylist('Electronica 90s');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 // En este video veremos lo que son los métodos de propiedad, es decir son funciones con una sintaxis similar a las de un método..
 
 // también llegan a ser muy comunes sobretodo porque es un objeto grande con todas las funciones...
@@ -30,3 +72,4 @@ reproductor.borrar(20);
 reproductor.crearPlaylist('Heavy Metal');
 reproductor.reproducirPlaylist('Heavy Metal');
 
+*/

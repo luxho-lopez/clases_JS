@@ -1,3 +1,37 @@
+const aprendiendo1 = function(tecnologia) {
+    console.log(`Aprendiendo ${tecnologia}`);
+}
+
+aprendiendo1('JavaScript');
+
+
+
+
+//Arrow Function
+// Cuando solo se le pasa un parametro, los parentesis son opcionales
+const aprendiendo2 = (tecnologia1, tecnologia2) => `Aprendiendo ${tecnologia1} y ${tecnologia2}`;
+
+console.log(aprendiendo2('JavaScript', 'NodeJS'));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 // Parametros en un arrow Function...
 
 
@@ -13,3 +47,4 @@ aprendiendo('JavaScript');
 const aprendiendo = (tecn1, tecn2) => console.log(`Aprendiendo ${tecn1} ${tecn2}`);
 aprendiendo('JS', 'ES');
 
+*/

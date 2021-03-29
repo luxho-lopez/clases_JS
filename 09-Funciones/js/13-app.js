@@ -1,3 +1,59 @@
+const reproductor = {
+    cancion: '',
+    reproducir: nombre => console.log(`Reproduciendo Cancion: ${nombre}`),
+    pausar: () => console.log('Pausa'),
+    crearPlaylist: nombrePlaylist => console.log(`Creando PlayList: ${nombrePlaylist}`),
+    reproducirPlaylist: nombrePlaylist => console.log(`Reproduciendo PlayList: ${nombrePlaylist}`),
+
+    set nuevaCancion(cancion) {
+        this.cancion = cancion;
+        console.log(`Añadiendo: ${cancion}`);
+    },
+    get obtenerCancion() {
+        console.log(`Nueva Cancion Agregada: ${this.cancion}`)
+    }
+};
+
+// Cuando se agrega a traves de SET no se usa los parentesis
+reproductor.nuevaCancion = 'El Favor De La Soledad';
+// Cuando se obtiene a traves de GET no se usa los parentesis
+reproductor.obtenerCancion;
+
+
+reproductor.reproducir('Lo que contruimos');
+reproductor.pausar();
+
+reproductor.borrar = nombre => console.log(`Cancion eliminada... ${nombre}`);
+
+reproductor.borrar('Lo que contruimos');
+reproductor.crearPlaylist('Electronica Moderna');
+reproductor.reproducirPlaylist('Electronica 90s');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 // Arrow functions en métodos de propiedad
 
 
@@ -34,3 +90,4 @@ reproductor.reproducirPlaylist('Heavy Metal');
 // Probando set y get se utilizando de la siguiente forma
 reproductor.nuevaCancion = 'Enter Sandman';
 reproductor.obtenerCancion;
+*/

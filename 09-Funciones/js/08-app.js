@@ -1,3 +1,47 @@
+
+function sumar(a, b) {
+    return a + b;
+}
+
+const resultado = sumar(2, 7);
+
+console.log(resultado);
+
+
+
+//////////////// Ejemplo mas avanzado////////////////////
+let total = 0;
+
+function agregarCarrito(precio) {
+    return total += precio;
+}
+
+function calcularImpuesto() {
+    return total * 1.16;
+}
+
+
+total = agregarCarrito(1200);
+total = agregarCarrito(500);
+total = agregarCarrito(17);
+
+const totalPagar = calcularImpuesto(total);
+
+console.log(`Subtotal: ${total}`);
+console.log(`Total a pagar: ${totalPagar}`);
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 // Funciones que retornan valores
 
 // Actualmente hemos tenido funciones que envian datos a la consola, ya cuando veamos la parte del DOM algunas funciones van a validar formularios y seguramente ejecutaran todo el código ahí, pero también tendremos funciones que retornan valores para pasarlos hacia otras funciones o hacer algo más...
@@ -30,3 +74,4 @@ console.log(total);
 const totalPagar = calcularImpuesto(total);
 
 console.log(`El total a pagar es de ${totalPagar}`);
+*/
